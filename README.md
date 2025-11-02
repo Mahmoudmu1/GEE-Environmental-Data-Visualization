@@ -75,8 +75,7 @@ The project findings are summarized in a **Canva presentation**, visualizing NDV
 
 ## 📂 Repository Structure
 
-```text
-GEE-Environmental-Data-Visualization/
+<pre><code>GEE-Environmental-Data-Visualization/
 ├── scripts/
 │   ├── alicante_spain_gee_script.js
 │   └── malaysia/
@@ -85,6 +84,7 @@ GEE-Environmental-Data-Visualization/
 ├── presentation/
 │   └── Alicante_Analysis_Presentation_GEE.pdf
 └── README.md
+</code></pre>
 
 
 ---
