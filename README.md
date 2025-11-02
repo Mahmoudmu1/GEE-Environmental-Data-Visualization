@@ -1,5 +1,3 @@
-# GEE-Environmental-Data-Visualization
-
 # 🌍 Environmental Data Visualization using Google Earth Engine
 
 This repository presents a comparative **NDVI (Normalized Difference Vegetation Index)** and **LST (Land Surface Temperature)** trend analysis using **Landsat 8** and **MODIS** datasets in **Google Earth Engine (GEE)**.  
@@ -41,17 +39,17 @@ The primary study focuses on **Alicante, Spain (2014–2023)**, with **Perak, Ma
 
 ## 🧩 Scripts
 
-| Region | Dataset | Description | File / GEE Link |
-|--------|----------|--------------|-----------------|
-| **Spain (Alicante)** | Landsat 8 & MODIS | Full NDVI & LST analysis (2014–2023) | [`scripts/spain_gee_script.js`](scripts/spain_gee_script.js)|
-| **Malaysia (Perak)** | Landsat 8 L2 | NDVI, emissivity & LST visualization with legend | [`scripts/malaysia/malaysia_landsat_lst_perak.js`](scripts/malaysia/malaysia_landsat_lst_perak.js) |
-| **Malaysia (Perak)** | MODIS LST Day 1 km | DOY-by-year chart & mean LST time-series | [`scripts/malaysia/malaysia_modis_lst_perak_timeseries.js`](scripts/malaysia/malaysia_modis_lst_perak_timeseries.js) |
+| Region | Dataset | Description | GitHub File |
+|--------|----------|--------------|--------------|
+| **Spain (Alicante)** | Landsat 8 & MODIS | Full NDVI & LST analysis (2014–2023) | [alicante_spain_gee_script.js](https://github.com/Mahmoudmu1/GEE-Environmental-Data-Visualization/blob/main/scripts/alicante_spain_gee_script.js) |
+| **Malaysia (Perak)** | Landsat 8 L2 | NDVI, emissivity & LST visualization with legend | [malaysia_landsat_lst_perak.js](https://github.com/Mahmoudmu1/GEE-Environmental-Data-Visualization/blob/main/scripts/malaysia_landsat_lst_perak.js) |
+| **Malaysia (Perak)** | MODIS LST Day 1 km | DOY-by-year chart & mean LST time-series | [malaysia_modis_lst_perak_timeseries.js](https://github.com/Mahmoudmu1/GEE-Environmental-Data-Visualization/blob/main/scripts/malaysia_modis_lst_perak_timeseries.js) |
 
 ---
 
 ## 📈 How to Generate Results
 
-All results (NDVI and LST maps, time-series charts, and temperature visualizations) can be reproduced directly by running the provided GEE scripts in the [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
+All results (NDVI and LST maps, time-series charts, and temperature visualizations) can be reproduced directly by running the provided scripts inside the **Google Earth Engine Code Editor**.
 
 Each script automatically:
 - Filters and preprocesses Landsat 8 or MODIS datasets
@@ -66,10 +64,10 @@ Each script automatically:
 
 ## 🎨 Presentation
 
-The project findings are summarized in a **Canva presentation** that visualizes NDVI & LST patterns, comparative insights between Spain and Malaysia, and research outcomes.
+The project findings are summarized in a **Canva presentation**, visualizing NDVI & LST patterns, comparative insights between Spain and Malaysia, and research outcomes.
 
 📄 **Presentation File:**  
-[`Alicante_Analysis_Presentation.pdf`](presentation/Alicante_Analysis_Presentation.pdf)
+[Alicante_Analysis_Presentation_GEE.pdf](https://github.com/Mahmoudmu1/GEE-Environmental-Data-Visualization/blob/main/presentation/Alicante_Analysis_Presentation_GEE.pdf)
 
 *(Add your Canva share link here if you’d like others to view it online.)*
 
@@ -79,12 +77,12 @@ The project findings are summarized in a **Canva presentation** that visualizes 
 
 GEE-Environmental-Data-Visualization/
 ├── scripts/
-│ ├── spain_gee_script.js
+│ ├── alicante_spain_gee_script.js
 │ └── malaysia/
 │ ├── malaysia_landsat_lst_perak.js
 │ └── malaysia_modis_lst_perak_timeseries.js
 ├── presentation/
-│ └── Alicante_Analysis_Presentation.pdf
+│ └── Alicante_Analysis_Presentation_GEE.pdf
 └── README.md
 
 
@@ -99,6 +97,4 @@ GEE-Environmental-Data-Visualization/
 
 ---
 
-## 🧩  
-
----
+## 🧩
